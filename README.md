@@ -19,7 +19,7 @@
   | Tool | What it does |
   |------|--------------|
   | `job_tool` | Search millions of jobs sourced from employer career pages and ATS feeds (Lever, Greenhouse). No scraping. |
-  | `resume_tool` | Generate PDF resumes with 50+ templates (JSON Resume format). |                                                                                                   
+  | `resume_tool` | Generate PDF resumes with multiple templates (JSON Resume format). |                                                                                                   
   | `career_tool` | AI-powered career transition advice and skill gap analysis. |                                                                                                     
                                                                                                                                                                                       
   ## Quick Start                                                                                                                                                                      
@@ -56,5 +56,12 @@
   - OpenClaw ClawHub: [`Shuangshuang007/workopia`](https://clawhub.ai/Shuangshuang007/workopia)                                                                                       
                                                                                                                                                                                       
   ## About                                                                                                                                                                            
-                                                                                                                                                                                      
+  ## Need more quota?                                                                                                                         
+                                                                
+  Workopia is free for everyone at launch — no API key, no sign-up, no payment. The default rate limits are:                                  
+                                                   
+  - `job_tool`, `career_tool`: unlimited                                                                                                      
+  - `resume_tool`: 20 requests per hour per IP                                                                                                
+                                                                                                                                              
+  **If you need higher quota or a custom arrangement**, email `shuang@heraai.one` and we'll work with you directly.                                                                                                                                                                                       
   Built by **HERAAI PTY LLC**. Privacy policy: https://workopia.io/privacy                                                                                                            

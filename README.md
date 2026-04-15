@@ -54,7 +54,19 @@
   - MCP Registry: `io.github.Shuangshuang007/workopia`                                                                                                                                
   - npm: [`@shuang_workopia/workopia-mcp`](https://www.npmjs.com/package/@shuang_workopia/workopia-mcp)
   - OpenClaw ClawHub: [`Shuangshuang007/workopia`](https://clawhub.ai/Shuangshuang007/workopia)                                                                                       
-                                                                                                                                                                                      
+  ## Live on Glama                                                                                                                            
+                                                         
+  [![workopia-mcp MCP server](https://glama.ai/mcp/servers/workopia/workopia-mcp/badges/score.svg)](https://glama.ai/mcp/servers/workopia/workopia-mcp)
+                                                                                                                                              
+  ## Need more quota?                         
+                                                                                                                                              
+  Workopia is free for everyone at launch — no API key, no sign-up, no payment. Default rate limits:                                          
+                                                                                                                                              
+  - `job_tool`, `career_tool`: unlimited                                                                                                      
+  - `resume_tool`: 20 requests per hour per IP                                                                                                
+                                                                
+  **If you need higher quota or a custom arrangement**, email `shuang@heraai.one` and we'll work with you directly.   
+ 
   ## About                                                                                                                                                                            
   ## Need more quota?                                                                                                                         
                                                                 

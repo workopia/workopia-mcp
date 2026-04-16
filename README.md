@@ -67,13 +67,5 @@
                                                                 
   **If you need higher quota or a custom arrangement**, email `shuang@heraai.one` and we'll work with you directly.   
  
-  ## About                                                                                                                                                                            
-  ## Need more quota?                                                                                                                         
-                                                                
-  Workopia is free for everyone at launch — no API key, no sign-up, no payment. The default rate limits are:                                  
-                                                   
-  - `job_tool`, `career_tool`: unlimited                                                                                                      
-  - `resume_tool`: 20 requests per hour per IP                                                                                                
-                                                                                                                                              
-  **If you need higher quota or a custom arrangement**, email `shuang@heraai.one` and we'll work with you directly.                                                                                                                                                                                       
+  ## About                                                                                                                                                                                                                                                                                              
   Built by **HERAAI PTY LLC**. Privacy policy: https://workopia.io/privacy                                                                                                            

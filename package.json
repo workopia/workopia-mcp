@@ -1,13 +1,13 @@
 {
   "name": "workopia-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Workopia MCP — job search, resume builder, career advice via Model Context Protocol",
   "bin": {
     "workopia-mcp": "./bin/run.js"
   },
   "dependencies": {
-    "mcp-proxy": "^6.4.3"
+    "mcp-remote": "^0.1.18"
   },
   "license": "MIT"
 }

@@ -2,7 +2,7 @@
 
 Job search, resume tailoring, cover letters & application tracking — available via the Model Context Protocol for Claude Code, Claude Desktop, Cursor, Windsurf, and other MCP clients.
 
-> **Note:** This is a hosted MCP server. Connect via the public endpoint below and sign in with Workopia (OAuth) — no install, no API key. Searching jobs is open; saving jobs and your dashboard require sign-in.
+> **Note:** This is a hosted MCP server. Connect via the public endpoint below and sign in with Workopia (OAuth) — no API key to manage. All tools require a free Workopia sign-in; searching, job detail, resume tailoring, cover letters, and your dashboard are all scoped to your account. Resume tailoring and cover letters run on your own AI client's model — Workopia hosts no LLM and never charges for AI.
 
 ## Endpoint
 
@@ -21,7 +21,7 @@ https://workopia.io/api/mcp-jobs
 /plugin install workopia-jobs
 ```
 
-On first use of a sign-in-required action, Claude Code opens the Workopia OAuth flow in your browser; the token is then stored and refreshed automatically.
+On first tool use, Claude Code opens the Workopia OAuth flow in your browser; the token is then stored and refreshed automatically.
 
 ## Tools
 
@@ -72,7 +72,7 @@ On first use of a sign-in-required action, Claude Code opens the Workopia OAuth 
 
 ## Quota
 
-Free at launch. Searching jobs is open; sign in with Workopia (OAuth) to save jobs, tailor resumes, and use your dashboard. Need a higher quota or a custom arrangement? Email `shuang@heraai.one`.
+Free at launch. A free Workopia sign-in (OAuth) is required to use the tools — searching, job detail, resume tailoring, cover letters, and your dashboard. Need a higher quota or a custom arrangement? Email `shuang@heraai.one`.
 
 ## Report a bug / request a feature
 

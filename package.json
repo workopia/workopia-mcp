@@ -1,6 +1,6 @@
 {
   "name": "workopia-mcp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "Workopia MCP — job search, resume builder, career advice via Model Context Protocol",
   "bin": {

@@ -8,7 +8,7 @@ const mcpRemoteBin = resolve(here, "../node_modules/.bin/mcp-remote");
 
 const child = spawn(
   mcpRemoteBin,
-  ["https://workopia.io/api/mcp-gpt"],
+  ["https://workopia.io/api/mcp-jobs"],
   { stdio: "inherit" }
 );
 

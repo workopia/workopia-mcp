@@ -1,0 +1,19 @@
+{
+  "name": "workopia-jobs",
+  "version": "1.0.0",
+  "description": "Search millions of live jobs across 90+ countries, tailor your resume, draft cover letters, and track applications — in Claude via Workopia.",
+  "author": {
+    "name": "Workopia",
+    "url": "https://workopia.io"
+  },
+  "homepage": "https://workopia.io/docs/mcp-jobs",
+  "repository": "https://github.com/workopia/workopia-mcp",
+  "license": "MIT",
+  "keywords": ["jobs", "job-search", "resume", "cover-letter", "career", "applications"],
+  "mcpServers": {
+    "workopia": {
+      "type": "http",
+      "url": "https://workopia.io/api/mcp-jobs"
+    }
+  }
+}

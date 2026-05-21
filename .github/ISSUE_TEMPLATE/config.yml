@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Workopia website
+    url: https://workopia.io
+    about: Product info and the hosted web app.
+  - name: Private / account / billing
+    url: mailto:shuang@heraai.one
+    about: For anything that shouldn't be public (account, billing, security).

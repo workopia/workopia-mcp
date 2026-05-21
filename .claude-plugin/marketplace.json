@@ -1,0 +1,19 @@
+{
+  "name": "workopia",
+  "owner": {
+    "name": "Workopia",
+    "url": "https://workopia.io"
+  },
+  "metadata": {
+    "description": "Workopia plugins for Claude Code — job search, resume tailoring, and application tracking.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "workopia-jobs",
+      "source": "./",
+      "description": "Search jobs, tailor resumes, draft cover letters, and track applications via Workopia.",
+      "category": "productivity"
+    }
+  ]
+}

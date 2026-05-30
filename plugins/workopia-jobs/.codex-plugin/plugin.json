@@ -1,0 +1,37 @@
+{
+  "name": "workopia-jobs",
+  "version": "1.0.0",
+  "description": "Search millions of live jobs across 90+ countries, tailor your resume, draft cover letters, and track applications — in Codex via Workopia.",
+  "author": {
+    "name": "Workopia",
+    "email": "hello@workopia.io",
+    "url": "https://workopia.io"
+  },
+  "homepage": "https://workopia.io/docs/mcp-jobs",
+  "repository": "https://github.com/workopia/workopia-mcp",
+  "license": "MIT",
+  "keywords": ["jobs", "job-search", "resume", "cover-letter", "career", "applications"],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Workopia Jobs",
+    "shortDescription": "Search live jobs, tailor resumes, draft cover letters.",
+    "longDescription": "Workopia brings real-time job search to Codex: search millions of live postings across 90+ countries, see full job details, tailor your resume to any role, draft cover letters, and track your applications — all from natural language.",
+    "developerName": "Workopia",
+    "category": "Productivity",
+    "capabilities": ["Interactive"],
+    "websiteURL": "https://workopia.io",
+    "privacyPolicyURL": "[TODO: confirm real URL e.g. https://workopia.io/privacy]",
+    "termsOfServiceURL": "[TODO: confirm real URL e.g. https://workopia.io/terms]",
+    "defaultPrompt": [
+      "Find remote software engineer jobs in Australia.",
+      "Tailor my resume to this job posting.",
+      "Draft a cover letter for this role."
+    ],
+    "brandColor": "#FF6B35",
+    "composerIcon": "[TODO: ./assets/icon.png — add a real PNG]",
+    "logo": "[TODO: ./assets/logo.png — add a real PNG]",
+    "screenshots": [
+      "[TODO: ./assets/screenshot1.png]"
+    ]
+  }
+}

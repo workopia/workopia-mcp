@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "workopia": {
+      "type": "http",
+      "url": "https://workopia.io/api/mcp-jobs"
+    }
+  }
+}

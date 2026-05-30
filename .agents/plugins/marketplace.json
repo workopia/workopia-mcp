@@ -1,0 +1,20 @@
+{
+  "name": "workopia",
+  "interface": {
+    "displayName": "Workopia"
+  },
+  "plugins": [
+    {
+      "name": "workopia-jobs",
+      "source": {
+        "source": "local",
+        "path": "./plugins/workopia-jobs"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

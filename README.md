@@ -23,6 +23,17 @@ https://workopia.io/api/mcp-jobs
 
 On first tool use, Claude Code opens the Workopia OAuth flow in your browser; the token is then stored and refreshed automatically.
 
+## Sign up and sign in
+
+There is no separate GitHub-repository account and no API key to create. The first time an MCP client calls a Workopia tool, it opens the Workopia authorization page in your browser. Sign in with an email code, Google, LinkedIn, or GitHub.
+
+- If that verified email already has a Workopia profile, the MCP connection uses it.
+- Otherwise Workopia creates a minimal profile for that verified email.
+- The MCP client stores and refreshes its OAuth token. Disconnect or remove Workopia in the client to revoke its local connection.
+- Using the same verified email from another supported client connects activity to the same Workopia profile; it does not create a separate MCP-only account.
+
+OAuth uses Authorization Code + PKCE and Dynamic Client Registration. Never paste a Workopia password, email code, OAuth token, or resume into this repository or a GitHub issue.
+
 ## Tools
 
 | Tool | What it does |
@@ -73,6 +84,12 @@ On first tool use, Claude Code opens the Workopia OAuth flow in your browser; th
 ## Quota
 
 Free at launch. A free Workopia sign-in (OAuth) is required to use the tools — searching, job detail, resume tailoring, cover letters, and your dashboard. Need a higher quota or a custom arrangement? Email `shuang@heraai.one`.
+
+## Account activity and privacy
+
+Authenticated tool actions such as job searches, job views, saved jobs, applications, resume operations, and cover-letter creation may be associated with your Workopia profile so your dashboard and history work across supported MCP clients. Workopia records the integration family (for example MCP) and, when the OAuth client identifies itself, the client type (for example Codex, Claude Code, Cursor, or Windsurf).
+
+Conversation transcripts are not collected by this MCP server. Activity records do not contain OAuth tokens or raw resume text. Resume content needed for a requested resume operation is handled under the Workopia privacy policy linked below.
 
 ## Report a bug / request a feature
 
